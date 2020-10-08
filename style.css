@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background: fixed white url("sourcefiles/bg1.png") repeat;
+background-size: cover;
+font-family: helvetica;
+padding:0;
+margin:0;
+}
+
+h1.carmine,h2.carmine,h3.carmine p.carmine {
+color: #D61D4D;
+}
+
+p.celltitle {
+font-size: 14pt;
+color: #D61D4D;
+font-weight: bold;
+}
+
+td,th{
+background:0;
+padding:0;
+border:none;
+}
+
+.divitem {
+background-color:#edd6a2;
+color:black;
+border:3px solid lightgrey;
+border-radius:10px;
+padding:2%;
+margin-bottom: 3%;
+}
+
+.main {
+    background-color:white;
+    color:black;
+    z-index: 0;    
+}
+.textbox {
+    padding:3%;
+}
+
+.footer {
+position:absolute;
+bottom:0;
+background-color:black;
+color:white;
+}
+
+p.worker-note {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info {
+    width: 200px;
+    float: left;
+    background: #e98900;
+    color: #fff;
+    font-size: 18px;
+    line-height: 33px;
+    padding-right: 3px;
+}
+.weight {
+    padding-left: 10px;
+    float: left;
+}
+.cost {
+    padding-right: 10px;
+    float: right;
+}
+.buy {
+    line-height: 33px;
+    width: 110px;
+    float: right;
+    font-size: 12px;
+    color: #32221c;
+    background: #ffba00;
+    border: none;
+}
